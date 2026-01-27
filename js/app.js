@@ -72,7 +72,7 @@
 
 // console.log(brinchi == 35)
 
-const mehmonlar = ['abdulaziz', 'muhammad', 'zafarjon']
+// const mehmonlar = ['abdulaziz', 'muhammad', 'zafarjon']
 // console.log(mehmonlar[0].toUpperCase())
 
 // for (let a = 0; a < 5; a++){
@@ -104,3 +104,9 @@ const mehmonlar = ['abdulaziz', 'muhammad', 'zafarjon']
 // if (parol >= 8){
 //     console.log('parol qoyildi!')
 // }
+
+// let ism = prompt('Ismingizni kriting:')
+// let ismniBrinchiHarfi = (ism.charAt().toUpperCase())
+// let ismQolganHarflar = (ism.slice(1).toLowerCase())
+// let result = ismniBrinchiHarfi + ismQolganHarflar
+// console.log('salom' + ' ' + result)
