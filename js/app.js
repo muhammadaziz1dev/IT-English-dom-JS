@@ -1,3 +1,6 @@
+// 1-2-darslar JS
+
+
 // let ism = 'Muhammadaziz';
 // let familiya = 'Mamirjonov';
 // let ismFailiya = ism + ' ' + familiya;
@@ -60,3 +63,44 @@
 
 // let numbir2 = 25
 // console.log( numbir <= 25)
+
+// 3-dars JS
+
+// let brinchi = '35'
+
+// brinchi = Number(35)
+
+// console.log(brinchi == 35)
+
+const mehmonlar = ['abdulaziz', 'muhammad', 'zafarjon']
+// console.log(mehmonlar[0].toUpperCase())
+
+// for (let a = 0; a < 5; a++){
+//     console.log(a)
+// }
+
+// for (let b = 0; b < mehmonlar.length; b++){
+//     console.log(mehmonlar[b].toUpperCase())
+// }
+
+
+// let b = 0
+// while (b < mehmonlar.length){
+//     console.log(mehmonlar[b].toUpperCase())
+//     b++
+// }
+// let b =10
+
+// do{
+//     console.log(b)
+//     b++
+// }while(b <= 15)
+
+// if (mehmonlar.length > 2){
+//     console.log('Bizda mehmonlar yetarlich!!!')
+// }
+
+// const parol = 'pa'.length
+// if (parol >= 8){
+//     console.log('parol qoyildi!')
+// }
