@@ -28,59 +28,37 @@
 //     console.log("emial xato kritildi")
 // }
 
-
-let input = prompt(
-    "Malumotlarni kriting: /Login, Parol, O'quvchi, O'qituvchi/ misol: admin1,12345,yes yoki no."
-)
-let info = input.split(",")
-let admin = info[0]
-let pasWord = info[1]
-let stu = info[2]
-let tech = info[3]
-
-if(admin == "bexruz" && pasWord == 12345){
-    console.log("Xush kelibsiz!")
-    if(stu == "yes" || tech == "yes"){
-        console.log("Sizga chegirma bor")
-    }else{
-        console.log("Chegirma yo'q")
-    }
-}else{
-    console.log("Parol yoki Login xato")
-}
-
-// let admin = 'admin1'
-// let passWord = 12345
-
-// if (admin === 'admin1' && passWord === 12345){
-//     console.log("Parol va Login to'g'ri")
-// } else if (admin !='admin1'){
-//     console.log("Login xato")
-// } else if (passWord !== 12345){
-//     console.log("Parol xato")
-// }else{
-//     console.log("Parol yoki login xato")
-// }
 // let input = prompt(
-//     "Ma'lumotlarni kiriting:\nlogin,parol,student,teacher\nMasalan:admin,1234,yes,no"
+//     "Malumotlarni kriting: /Login, Parol, O'quvchi, O'qituvchi/ misol: admin1,12345,yes yoki no."
 // )
+// let info = input.split(",")
+// let admin = info[0]
+// let pasWord = info[1]
+// let stu = info[2]
+// let tech = info[3]
 
-// let data = input.split(',')
-
-// let login = data[0]
-// let passWord = data[1]
-// let stu = data[2]
-// let tech = data[3]
-
-// if (login === "admin01" && passWord === "240508"){
-//     console.log("Parol va Login to'g'ri")
-
-//     if (stu === 'yes' || tech === 'yes'){
-//       console.log("Sizga chegirma bor")
-//     } else{
-//     console.log("Sizga chegirma yo'q")
+// if(admin == "bexruz" && pasWord == 12345){
+//     console.log("Xush kelibsiz!")
+//     if(stu == "yes" || tech == "yes"){
+//         console.log("Sizga chegirma bor")
+//     }else{
+//         console.log("Chegirma yo'q")
 //     }
-
-// } else{
-//     console.log('Parol yoki Login xato!!!')
+// }else{
+//     console.log("Parol yoki Login xato")
 // }
+
+// 2-bo'lim (switch case, Break, continue)
+
+let baho = 2
+
+switch(baho){
+    case 1:
+    console.log("Sizning bahoyiz 1")
+    break
+    case 2:
+    console.log("Sizning bahoyiz 2")
+    break
+    default:
+        console.log("Sizning bahoyiz yo'q")
+}
