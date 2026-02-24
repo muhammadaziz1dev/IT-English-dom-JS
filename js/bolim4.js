@@ -48,3 +48,15 @@
 // const randomSon = (Math.random(sonNone) * 10) + 1
 // console.log(Math.trunc(randomSon))
  
+// Dom 4-bo'lim
+//  const title = document.getElementsByTagName("h1")
+//  title[0].innerText = "Hmmaga salom"
+ 
+// const title = document.getElementById('title')
+// title.innerHTML = '<i>Hmmaga salom</i>'
+
+// let rasm = document.getElementById('rasm')
+// console.log(rasm.getAttribute('src'))
+
+// const rasm = document.getElementById('rasm')
+// rasm.setAttribute('src', 'https://img.freepik.com/premium-photo/brown-cat-with-white-mark-wear-metalic-style-glasses-party-concept-fancy-dress-up-funny-cool-mood_25573-181.jpg?semt=ais_hybrid&w=740&q=80')
